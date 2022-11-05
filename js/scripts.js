@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
+        new bootstrap.ScrolxxlSpy(document.body, {
             target: '#mainNav',
             offset: 72,
         });
